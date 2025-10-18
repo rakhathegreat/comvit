@@ -1,0 +1,36 @@
+# ---- CORE API ----
+fastapi==0.119.0
+uvicorn[standard]==0.37.0
+python-dotenv==1.1.1
+pydantic==2.12.3
+email-validator==2.3.0
+
+# ---- DATABASE / SUPABASE ----
+supabase==2.22.0
+postgrest==2.22.0
+realtime==2.22.0
+storage3==2.22.0
+supabase-auth==2.22.0
+supabase-functions==2.22.0
+PyJWT==2.10.1
+
+# ---- ML / VISION ----
+mediapipe==0.10.18
+opencv-python==4.12.0.88
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.3.3
+matplotlib==3.10.7
+Pillow==12.0.0
+
+# ---- AUDIO (optional, kalau pakai mic) ----
+sounddevice==0.5.2
+
+# ---- UTILS ----
+python-multipart==0.0.20
+PyYAML==6.0.3
+click==8.3.0
+httpx==0.28.1
+rich==14.2.0
+typer==0.19.2
