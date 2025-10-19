@@ -7,7 +7,6 @@ from app import (
     CSPMiddleware,
     LANDMARK_DIR,
     FastAPI,
-    analysis_router,
     calibration_router,
     media_router,
     system_router,
@@ -34,7 +33,6 @@ def create_app() -> FastAPI:
     application.include_router(system_router)
     application.include_router(calibration_router)
     application.include_router(media_router)
-    application.include_router(analysis_router)
 
     return application
 
